@@ -1,6 +1,4 @@
-#HTML5-Website-Project
-
-HTML5 Website With A Responsive Layout
+# HTML5 Website With A Responsive Layout
 
 In this project,I created a clean coded responsive mobile friendly HTML5 website for a fictional web design company.
 
