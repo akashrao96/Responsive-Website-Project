@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.5;
+}
+/* global*/
+.container{
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#branding {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+
+}
+
+
+header{
+    background-color: rgba(39, 38, 38, 0.959);
+    padding: 8px;
+    min-height: 70px;
+    border-bottom: rgb(230, 70, 13) 3px solid;
+    height: 90px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+header li{
+    display: inline;
+
+    padding: 0 20px 0 20px;
+   
+}
+header a{
+   
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+header a:hover{
+    font:bold;
+    color:grey;
+}
+header nav{
+    float: right;
+    margin-top: 25px;
+} 
+header #branding{
+    font:bond;
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+    margin-top: 12px;
+    color: #fff;
+    word-spacing: 0.3rem;
+}
+
+
+#section-main{
+    background: url('image.jpg' ) no-repeat 0 -420px ;
+    min-height: 400px;
+    color: #fff;
+    opacity: 0.8;
+}
+#section-main h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+#section-main p{
+    font-size: 20px;
+    text-align: center;
+}
+#section-subscribe{
+    background-color:  rgba(39, 38, 38, 0.959);
+    min-height: 50px;
+}
+#section-subscribe h1{
+    float: left;
+    color: #fff;
+    font-size: 30px;
+ 
+}
+
+#section-subscribe form{
+    float: right;
+    margin-top: 25px;
+}
+
+#section-subscribe input[type="email"]{
+    padding: 5px;
+    width:300px;
+    height: 30px;
+    
+}
+.button-1{
+    margin-left: 8px;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(230, 70, 13);
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    font: bold;
+    margin-top: 10px;
+
+}
+
+#section-box .Box{
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 25px;
+}
+#section-box img{
+    width: 100px;
+}
+#section-box .box1{
+  
+    padding: 14px;
+}
+aside#sidebar{
+    float:right;
+    width: 35%;
+    padding: 20px;
+    background-color: rgba(39, 38, 38, 0.959);
+    color: #fff;
+    margin-top: 50px;
+    
+}
+article#main-col{
+    float:left;
+    width:65%;
+    padding: 20px;
+}
+article#main-col{
+    float:left;
+    width: 60%;
+}
+ul#serv li{
+    list-style: none;
+    padding: 10px;
+    border:rgb(231, 226, 226) 1px solid;
+    margin-bottom: 5px;
+    background-color: rgb(231, 226, 226);
+}
+
+aside#sidebar-1{
+    height: 50%;
+    float: right;
+    width: 30%;
+    padding: 20px;
+    background-color:rgba(39, 38, 38, 0.959);
+    color: #fff;
+    margin-top: 85px;
+
+}
+aside#sidebar-1 h1{
+    font-size: 30px;
+    font-family: serif;
+}
+aside#sidebar-1 input[type="Message"]{
+    height:25px ;
+}
+article#main-colu{
+    float:left;
+    width: 60%;
+    padding: 20px;
+}
+aside#sidebar-2{
+    float:right;
+    width: 40%;
+
+    padding: 20px;
+}
+aside#sidebar-2 img{
+    width: 80%;
+}
+
+
+footer{
+    text-align: center;
+    background-color:  rgb(230, 70, 13);
+    min-height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+@media(max-width:1000px)
+{
+    header{
+        padding-bottom: 20px;
+    }
+    header #branding{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header nav li{
+        float:none;
+        text-align: center;
+        width: 100%;
+
+    }
+    .container{
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+    #section-main h1{
+        margin-top:40px;
+      }
+    
+      #section-subscribe button, .quote button{
+        display:block;
+        width:100%;
+      }
+    
+      #section-subscribe form input[type="email"], .quote input, .quote textarea{
+        width:100%;
+        margin-bottom:5px;
+      }
+}
